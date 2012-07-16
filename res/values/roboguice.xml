@@ -1,0 +1,5 @@
+<resources>
+    <string-array name="roboguice_modules">
+        <item>com.doomonafireball.customscrollviews.RoboGuiceModule</item>
+    </string-array>
+</resources>

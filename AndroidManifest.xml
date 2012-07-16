@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.doomonafireball.customscrollviews"
+    android:versionCode="1"
+    android:versionName="1.0-SNAPSHOT">
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="14"/>
+
+    <application
+        android:name=".MainApp"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Sherlock">
+        <activity
+            android:name=".activity.DemoActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.LockedSVActivity"
+            android:label="@string/locked_scroll_views"/>
+        <activity
+            android:name=".activity.SyncedSVActivity"
+            android:label="@string/synced_scroll_views"/>
+        <activity
+            android:name=".activity.UnsyncedSVActivity"
+            android:label="@string/unsynced_scroll_views"/>
+        <activity
+            android:name=".activity.ParallaxTwoSVActivity"
+            android:label="@string/parallax_scroll_views"/>
+        <activity
+            android:name=".activity.ParallaxThreeSVActivity"
+            android:label="@string/parallax_scroll_views"/>
+        <activity
+            android:name=".activity.LockedLVActivity"
+            android:label="@string/locked_list_views"/>
+        <activity
+            android:name=".activity.SyncedTouchSVActivity"
+            android:label="@string/locked_list_views"/>
+        <activity
+            android:name=".activity.ScrollView2DActivity"
+            android:label="@string/scroll_view_2_d"/>
+        <activity
+            android:name=".activity.ScrollView2DComplexActivity"
+            android:label="@string/complex_scroll_view_2_d"/>
+    </application>
+</manifest>
+

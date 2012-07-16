@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello CustomScrollView!</string>
+    <string name="app_name">CustomScrollView Demos</string>
+    <string name="locked_scroll_views">Locked ScrollViews</string>
+    <string name="parallax_scroll_views">Parallax ScrollViews</string>
+    <string name="synced_scroll_views">Synced ScrollViews</string>
+    <string name="unsynced_scroll_views">Unsynced ScrollViews</string>
+    <string name="locked_list_views">Locked ListViews</string>
+    <string name="scroll_view_2_d">Two-Dimensional ScrollView</string>
+    <string name="complex_scroll_view_2_d">Complex Two-Dimensional ScrollView</string>
+    <string name="scroll_left_to_top">Scroll left column to top</string>
+    <string name="smooth_scroll_left_to_top">Smooth scroll left to top</string>
+    <string name="smooth_scroll_by_offset">Smooth scroll by offset</string>
+    <string name="set_left_selection">Set left selection</string>
+    <string name="set_left_selection_from_top">Set left selection from top</string>
+    <string name="enabled">Enabled</string>
+    <string name="about">
+        This widget hosts two SyncedScrollView children. It has an optional parameter to set a scroll
+        factor, which will in turn cause the opposing SyncedScrollView to be scrolled at a different rate. This widget can be very useful
+        for synchronized scrolling of two SyncedScrollView children, or for parallax-style scrolling in a over-under fashion.
+    </string>
+    <string name="about_locked_col1">
+        These two ScrollViews are synced and locked. Clicking the button causes the left column to scroll to the top, and the right column
+        mimics the position.
+    </string>
+    <string name="about_locked_col2">
+        They scroll at the same rate. They lock to the position of each other. There is extra text in this column to illustrate how the
+        views lock.
+    </string>
+    <string name="about_synced_col1">
+        These two ScrollViews are synced and unlocked. They scroll based on the difference in scrolling of the opposing view, _not_ the
+        position of the opposing view.
+    </string>
+    <string name="about_synced_col2">
+        They scroll at the same rate. They do not lock to the position of each other.
+    </string>
+    <string name="about_unsynced_col1">
+        These two ScrollViews are unsynced and unlocked. They scroll based on the difference in scrolling of the opposing view, _not_ the
+        position of the opposing view.
+    </string>
+    <string name="about_unsynced_col2">
+        The right ScrollView scrolls at 3x the rate of the left one. They do not lock to the position of each other.
+    </string>
+    <string name="about_synced_touch_col1">
+        These two ScrollViews are synced via onMotionEvent() and unlocked. They use equivalent MotionEvents. This makes it possible for the
+        receiving ScrollView to continue to scroll even when the dispatching ScrollView is already at the top or bottom.
+    </string>
+    <string name="about_synced_touch_col2">
+        They scroll only based on the MotionEvents triggered by the opposing ScrollView. They do not lock to the position of each other.
+    </string>
+    <string name="additional_info">Additional Info</string>
+    <string name="lorem_spaced_new_line">Lorem\nipsum\ndolor\nsit\namet\n...</string>
+    <string name="lorem_para1">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam urna metus, tincidunt in volutpat et, condimentum id neque. Nunc
+        molestie aliquet malesuada. Nullam et massa faucibus lectus dignissim dictum quis eget est. Sed elit lorem, volutpat in condimentum
+        quis, feugiat ut sapien. Curabitur in ultrices odio. Fusce leo orci, dictum ut varius non, faucibus a est. Cum sociis natoque
+        penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam erat volutpat. Sed sit amet facilisis justo.
+    </string>
+    <string name="lorem_para2">
+        Etiam porttitor lectus in justo interdum sed condimentum nisl viverra. Phasellus mi massa, congue ut porttitor et, aliquam id
+        tortor. Integer nunc sem, convallis vel congue ac, vehicula at orci. Pellentesque eget mi tortor, id blandit turpis. Suspendisse
+        lobortis, mi quis hendrerit vehicula, libero erat accumsan tortor, sed imperdiet ligula nunc eget orci. Sed auctor accumsan quam, ut
+        bibendum dolor tempus non. Mauris ultricies dolor vel neque accumsan a consequat lorem pharetra. Donec eget mauris non libero dictum
+        sodales vitae id libero. Proin bibendum eleifend lacus quis aliquam. Pellentesque habitant morbi tristique senectus et netus et
+        malesuada fames ac turpis egestas. Donec quis tortor non enim accumsan pretium ut non eros. Suspendisse faucibus justo viverra diam
+        commodo viverra. Duis cursus nulla a quam feugiat laoreet. Morbi convallis dignissim est eu aliquet.
+    </string>
+    <string name="lorem_para3">
+        Vivamus sagittis, nisi ut porta feugiat, ante ipsum dapibus erat, ac semper nunc felis eu tortor. Morbi ullamcorper facilisis
+        malesuada. Donec nisi leo, auctor in congue quis, aliquam sit amet orci. Curabitur libero quam, sollicitudin eget pretium quis,
+        gravida nec dolor. Aenean tempor, nibh vitae adipiscing eleifend, dolor lacus lacinia sem, non auctor orci magna at nibh. In vel
+        velit est, a condimentum tortor. Aliquam dui ante, porta non rhoncus eu, elementum sollicitudin nulla. Nam quis varius tellus.
+        Vestibulum ante ipsum, elementum et rutrum a, euismod id dolor. Duis sed faucibus mi. Sed diam elit, fringilla in interdum id,
+        pulvinar sit amet dui.
+    </string>
+    <string name="lorem_para4">
+        Integer accumsan dictum sollicitudin. Nullam pulvinar elementum felis faucibus varius. Nunc imperdiet metus sit amet velit tempor
+        dictum. Nulla porttitor odio quis erat congue lobortis. Cras vehicula rhoncus placerat. Cras malesuada nulla ac libero cursus
+        rhoncus ultricies nisl venenatis. Proin eu odio elit, sagittis ornare dolor. Etiam accumsan diam a libero scelerisque dignissim eget
+        sit amet nulla.
+    </string>
+    <string name="lorem_para5">
+        Suspendisse aliquet ullamcorper faucibus. Proin id est dolor, vel semper arcu. Morbi felis risus, aliquet varius vehicula eu,
+        faucibus at mi. Nunc nunc tellus, luctus eget lobortis nec, accumsan ac sem. Proin mauris mi, condimentum a convallis sed, aliquet
+        sed tortor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla elementum interdum orci et
+        fermentum.
+    </string>
+
+    <string-array name="string_array_1">
+        <item>Red</item>
+        <item>Orange</item>
+        <item>Yellow</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Indigo</item>
+        <item>Violet</item>
+        <item>Black</item>
+        <item>White</item>
+        <item>Periwinkle</item>
+        <item>Magenta</item>
+        <item>Chartreuse</item>
+        <item>Neon Yellow</item>
+        <item>Brown</item>
+        <item>Gray</item>
+        <item>Cornflower Blue</item>
+    </string-array>
+
+    <string-array name="string_array_2">
+        <item>Lorem</item>
+        <item>ipsum</item>
+        <item>dolor</item>
+        <item>amet</item>
+        <item>consectetur</item>
+        <item>adipiscing</item>
+        <item>elit</item>
+        <item>Nullam</item>
+        <item>urna</item>
+        <item>metus</item>
+        <item>tincidunt</item>
+        <item>in</item>
+        <item>volutpat</item>
+        <item>et</item>
+        <item>condimentum</item>
+        <item>id</item>
+        <item>neque</item>
+        <item>Nunc</item>
+        <item>molestie</item>
+        <item>aliquet</item>
+        <item>malesuada</item>
+        <item>Nullam</item>
+        <item>et</item>
+        <item>massa</item>
+        <item>faucibus</item>
+        <item>lectus</item>
+        <item>dignissim</item>
+        <item>dictum</item>
+        <item>quis</item>
+        <item>eget</item>
+        <item>est</item>
+        <item>Sed</item>
+        <item>elit</item>
+        <item>lorem</item>
+        <item>volutpat</item>
+        <item>in</item>
+        <item>condimentum</item>
+    </string-array>
+</resources>

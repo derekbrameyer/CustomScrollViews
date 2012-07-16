@@ -1,0 +1,11 @@
+bin/
+gen/
+target/
+classes/
+gen-external-apklibs/
+out/
+*.iml
+.idea/
+.DS_STORE
+.classpath
+.settings/
