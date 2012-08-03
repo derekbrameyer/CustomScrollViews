@@ -35,11 +35,20 @@
         <attr name="dispatchScroll" format="boolean"/>
         <attr name="dispatchTouch" format="boolean"/>
         <attr name="dispatchSelection" format="boolean"/>
+        <attr name="receiveScroll" format="boolean"/>
+        <attr name="receiveTouch" format="boolean"/>
+        <attr name="maxScrollPosition" format="dimension"/>
     </declare-styleable>
     <declare-styleable
         name="FreezableSyncedScrollContainer">
         <attr name="horizontalScrollViewId" format="reference"/>
         <attr name="verticalScrollViewId" format="reference"/>
         <attr name="twoDScrollViewId" format="reference"/>
+    </declare-styleable>
+    <declare-styleable
+        name="FrzSyncedScrollContainer">
+        <attr name="frzHorizontalScrollViewId" format="reference"/>
+        <attr name="frzColumnListViewId" format="reference"/>
+        <attr name="frzMainListViewId" format="reference"/>
     </declare-styleable>
 </resources>

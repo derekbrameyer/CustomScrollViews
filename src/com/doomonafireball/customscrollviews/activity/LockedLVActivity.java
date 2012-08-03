@@ -38,7 +38,7 @@ public class LockedLVActivity extends RoboSherlockFragmentActivity {
         leftLV.setAdapter(
                 new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, getResources().getStringArray(R.array.string_array_1)));
         rightLV.setAdapter(
-                new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, getResources().getStringArray(R.array.string_array_2)));
+                new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, getResources().getStringArray(R.array.long_string_array_2)));
 
         smoothScrollLeftToTopBTN.setOnClickListener(new View.OnClickListener() {
             @Override

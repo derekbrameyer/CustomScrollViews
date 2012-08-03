@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.doomonafireball.customscrollviews.widget.FrzSyncedScrollContainer
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ssv="http://schemas.android.com/apk/res/com.doomonafireball.customscrollviews"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    ssv:frzColumnListViewId="@+id/LV_demo_frozen_column"
+    ssv:frzMainListViewId="@+id/LV_demo"
+    ssv:frzHorizontalScrollViewId="@+id/HSV_demo_horiz">
+    <com.doomonafireball.customscrollviews.widget.FrzColumnListView
+        android:id="@id/LV_demo_frozen_column"
+        android:layout_width="100dp"
+        android:layout_height="fill_parent"/>
+    <com.doomonafireball.customscrollviews.widget.FrzHorizontalScrollView
+        android:id="@id/HSV_demo_horiz"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_toRightOf="@id/LV_demo_frozen_column"
+        android:scrollbars="none">
+        <LinearLayout
+            android:id="@+id/my_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal">
+            <com.doomonafireball.customscrollviews.widget.FrzMainListView
+                android:id="@id/LV_demo"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_toRightOf="@id/LV_demo_frozen_column"/>
+        </LinearLayout>
+    </com.doomonafireball.customscrollviews.widget.FrzHorizontalScrollView>
+</com.doomonafireball.customscrollviews.widget.FrzSyncedScrollContainer>

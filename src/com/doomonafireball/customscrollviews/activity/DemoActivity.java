@@ -28,7 +28,9 @@ public class DemoActivity extends RoboSherlockFragmentActivity {
             "Synced-Touch ScrollViews",
             "Locked ListViews",
             "Two-Dimensional ScrollView",
-            "Complex Two-Dimensional ScrollView"
+            "Complex Two-Dimensional ScrollView",
+            "Two-Dimensional ListView",
+            "Max Scroll ScrollView"
     };
     Class[] activityClasses = new Class[]{
             ParallaxTwoSVActivity.class,
@@ -39,7 +41,9 @@ public class DemoActivity extends RoboSherlockFragmentActivity {
             SyncedTouchSVActivity.class,
             LockedLVActivity.class,
             ScrollView2DActivity.class,
-            ScrollView2DComplexActivity.class
+            ScrollView2DComplexActivity.class,
+            ListView2DActivity.class,
+            MaxScrollScrollViewActivity.class
     };
 
     @InjectView(R.id.LV_demo) ListView demoLV;

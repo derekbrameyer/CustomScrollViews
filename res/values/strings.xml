@@ -9,6 +9,8 @@
     <string name="locked_list_views">Locked ListViews</string>
     <string name="scroll_view_2_d">Two-Dimensional ScrollView</string>
     <string name="complex_scroll_view_2_d">Complex Two-Dimensional ScrollView</string>
+    <string name="list_view_2_d">Two-Dimensional ListView</string>
+    <string name="max_scroll_scroll_view">Max Scroll ScrollView</string>
     <string name="scroll_left_to_top">Scroll left column to top</string>
     <string name="smooth_scroll_left_to_top">Smooth scroll left to top</string>
     <string name="smooth_scroll_by_offset">Smooth scroll by offset</string>
@@ -145,4 +147,79 @@
         <item>in</item>
         <item>condimentum</item>
     </string-array>
+
+    <string-array name="long_string_array_2">
+        <item>Mercury Venus Earth Mars Jupiter Saturn Uranus Neptune Ceres Pluto Haumea Makemake Eris This That Space Pole</item>
+        <item>Mercury Venus Earth Mars Jupiter Saturn Uranus Neptune Ceres Pluto Haumea Makemake Eris This That Space Pole</item>
+        <item>Mercury Venus Earth Mars Jupiter Saturn Uranus Neptune Ceres Pluto Haumea Makemake Eris This That Space Pole</item>
+        <item>Mercury Venus Earth Mars Jupiter Saturn Uranus Neptune Ceres Pluto Haumea Makemake Eris This That Space Pole</item>
+        <item>Mercury Venus Earth Mars Jupiter Saturn Uranus Neptune Ceres Pluto Haumea Makemake Eris This That Space Pole</item>
+        <item>Mercury Venus Earth Mars Jupiter Saturn Uranus Neptune Ceres Pluto Haumea Makemake Eris This That Space Pole</item>
+        <item>Mercury Venus Earth Mars Jupiter Saturn Uranus Neptune Ceres Pluto Haumea Makemake Eris This That Space Pole</item>
+        <item>Mercury Venus Earth Mars Jupiter Saturn Uranus Neptune Ceres Pluto Haumea Makemake Eris This That Space Pole</item>
+        <item>Mercury Venus Earth Mars Jupiter Saturn Uranus Neptune Ceres Pluto Haumea Makemake Eris This That Space Pole</item>
+        <item>Mercury Venus Earth Mars Jupiter Saturn Uranus Neptune Ceres Pluto Haumea Makemake Eris This That Space Pole</item>
+        <item>Mercury Venus Earth Mars Jupiter Saturn Uranus Neptune Ceres Pluto Haumea Makemake Eris This That Space Pole</item>
+        <item>Mercury Venus Earth Mars Jupiter Saturn Uranus Neptune Ceres Pluto Haumea Makemake Eris This That Space Pole</item>
+        <item>Mercury Venus Earth Mars Jupiter Saturn Uranus Neptune Ceres Pluto Haumea Makemake Eris This That Space Pole</item>
+        <item>Mercury Venus Earth Mars Jupiter Saturn Uranus Neptune Ceres Pluto Haumea Makemake Eris This That Space Pole</item>
+        <item>Mercury Venus Earth Mars Jupiter Saturn Uranus Neptune Ceres Pluto Haumea Makemake Eris This That Space Pole</item>
+        <item>Mercury Venus Earth Mars Jupiter Saturn Uranus Neptune Ceres Pluto Haumea Makemake Eris This That Space Pole</item>
+        <item>Mercury Venus Earth Mars Jupiter Saturn Uranus Neptune Ceres Pluto Haumea Makemake Eris This That Space Pole</item>
+        <item>Mercury Venus Earth Mars Jupiter Saturn Uranus Neptune Ceres Pluto Haumea Makemake Eris This That Space Pole</item>
+        <item>Mercury Venus Earth Mars Jupiter Saturn Uranus Neptune Ceres Pluto Haumea Makemake Eris This That Space Pole</item>
+        <item>Mercury Venus Earth Mars Jupiter Saturn Uranus Neptune Ceres Pluto Haumea Makemake Eris This That Space Pole</item>
+        <item>Mercury Venus Earth Mars Jupiter Saturn Uranus Neptune Ceres Pluto Haumea Makemake Eris This That Space Pole</item>
+        <item>Mercury Venus Earth Mars Jupiter Saturn Uranus Neptune Ceres Pluto Haumea Makemake Eris This That Space Pole</item>
+        <item>Mercury Venus Earth Mars Jupiter Saturn Uranus Neptune Ceres Pluto Haumea Makemake Eris This That Space Pole</item>
+        <item>Mercury Venus Earth Mars Jupiter Saturn Uranus Neptune Ceres Pluto Haumea Makemake Eris This That Space Pole</item>
+        <item>Mercury Venus Earth Mars Jupiter Saturn Uranus Neptune Ceres Pluto Haumea Makemake Eris This That Space Pole</item>
+        <item>Mercury Venus Earth Mars Jupiter Saturn Uranus Neptune Ceres Pluto Haumea Makemake Eris This That Space Pole</item>
+        <item>Mercury Venus Earth Mars Jupiter Saturn Uranus Neptune Ceres Pluto Haumea Makemake Eris This That Space Pole</item>
+        <item>Mercury Venus Earth Mars Jupiter Saturn Uranus Neptune Ceres Pluto Haumea Makemake Eris This That Space Pole</item>
+        <item>Mercury Venus Earth Mars Jupiter Saturn Uranus Neptune Ceres Pluto Haumea Makemake Eris This That Space Pole</item>
+        <item>Mercury Venus Earth Mars Jupiter Saturn Uranus Neptune Ceres Pluto Haumea Makemake Eris This That Space Pole</item>
+        <item>Mercury Venus Earth Mars Jupiter Saturn Uranus Neptune Ceres Pluto Haumea Makemake Eris This That Space Pole</item>
+        <item>Mercury Venus Earth Mars Jupiter Saturn Uranus Neptune Ceres Pluto Haumea Makemake Eris This That Space Pole</item>
+        <item>Mercury Venus Earth Mars Jupiter Saturn Uranus Neptune Ceres Pluto Haumea Makemake Eris This That Space Pole</item>
+        <item>Mercury Venus Earth Mars Jupiter Saturn Uranus Neptune Ceres Pluto Haumea Makemake Eris This That Space Pole</item>
+        <item>Mercury Venus Earth Mars Jupiter Saturn Uranus Neptune Ceres Pluto Haumea Makemake Eris This That Space Pole</item>
+        <item>Mercury Venus Earth Mars Jupiter Saturn Uranus Neptune Ceres Pluto Haumea Makemake Eris This That Space Pole</item>
+        <item>Mercury Venus Earth Mars Jupiter Saturn Uranus Neptune Ceres Pluto Haumea Makemake Eris This That Space Pole</item>
+    </string-array>
+    <string name="lorem_ipsum_5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent consectetur urna vitae odio consequat sed
+        aliquet metus consectetur. Nullam ligula mi, tincidunt ac gravida non, elementum at magna. Nam elementum arcu quis metus porttitor a
+        pharetra tellus semper. Sed neque arcu, suscipit a ornare vitae, vestibulum eu tortor. Vivamus facilisis, arcu id sollicitudin
+        venenatis, dui neque interdum diam, sit amet vulputate sapien orci sit amet arcu. Nam in massa et enim dapibus interdum eget ut
+        lectus. Nam sed lectus ligula. Pellentesque viverra luctus ligula, a mattis massa malesuada in. Morbi ipsum eros, placerat viverra
+        posuere ac, lobortis a metus.
+
+        Aenean enim tellus, vulputate at ullamcorper quis, ultrices et orci. Nullam quis diam ipsum, vitae congue nisi. Maecenas commodo
+        felis eget sem condimentum ullamcorper et vitae nisi. Donec ac mi libero, ac vulputate orci. Mauris fermentum placerat nisi, ut
+        iaculis est malesuada quis. Maecenas dui leo, rhoncus non elementum eu, laoreet non turpis. Suspendisse potenti. Curabitur tristique
+        porta elit at convallis. Aliquam fringilla turpis vestibulum magna tempus adipiscing. Cras lobortis dolor eget augue vestibulum
+        varius.
+
+        Integer dictum risus sit amet urna ultricies eget pellentesque magna ultricies. Ut feugiat porttitor posuere. Morbi a risus non est
+        faucibus sagittis nec eget sapien. Nullam congue vehicula magna, sit amet posuere velit egestas sed. Fusce in magna erat. Sed at mi
+        eget mi imperdiet ultrices quis nec urna. Suspendisse in diam non magna luctus tincidunt pellentesque semper tellus. Curabitur eget
+        turpis erat, vitae tincidunt massa. Integer non ante sed nisl euismod luctus in semper urna. Pellentesque dictum hendrerit libero
+        rhoncus accumsan. Etiam aliquet posuere ante. Nam aliquam auctor tellus non suscipit.
+
+        Ut accumsan posuere orci, sed ultricies massa fermentum congue. Vestibulum dolor justo, dignissim vehicula eleifend sit amet,
+        ullamcorper eget lectus. Morbi ac dui a risus semper convallis. Suspendisse vitae augue sit amet risus varius cursus vel a velit.
+        Aliquam ac auctor justo. Proin nisi quam, ultrices eget lobortis eu, consectetur in orci. Donec urna eros, suscipit sed gravida
+        eget, hendrerit eget quam. Fusce velit tortor, convallis at dapibus non, pharetra id sapien. Fusce ut metus libero, id adipiscing
+        nibh. Donec eget lorem enim. Nam eu sapien ut lorem imperdiet viverra. Nullam at orci at metus suscipit egestas. Vivamus fringilla
+        pretium neque sagittis sagittis. Ut velit ante, venenatis vel dictum et, sodales interdum justo.
+
+        Proin quam lorem, feugiat et adipiscing id, tempor vitae lorem. Nulla ac gravida est. Suspendisse tincidunt accumsan leo ac
+        placerat. Etiam sagittis, dui vel volutpat pretium, lacus tortor porta orci, in posuere libero neque in libero. Maecenas id aliquam
+        nisi. Suspendisse diam erat, dapibus eu malesuada in, eleifend quis ipsum. Morbi tempor porttitor ipsum at congue. Nunc pretium,
+        massa non tincidunt pulvinar, leo nisl venenatis felis, at tristique ligula dui a mi. Nam dignissim lacus justo. Cum sociis natoque
+        penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi odio ante, porttitor at fringilla tristique, tristique vel
+        magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam sed molestie quam. Aenean
+        quis diam justo, bibendum vulputate purus.
+    </string>
+
 </resources>

@@ -82,13 +82,18 @@
             android:layout_weight="0.5"
             android:fillViewport="true"
             android:overScrollMode="never"/>
-        <com.doomonafireball.customscrollviews.widget.SyncedListView
-            android:id="@id/LV_right"
+        <HorizontalScrollView
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:layout_weight="0.5"
-            android:fillViewport="true"
-            android:overScrollMode="never"
-            ssv:dispatchTouch="false"/>
+            android:layout_weight="0.5">
+            <com.doomonafireball.customscrollviews.widget.SyncedListView
+                android:id="@id/LV_right"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.5"
+                android:fillViewport="true"
+                android:overScrollMode="never"
+                ssv:dispatchTouch="false"/>
+        </HorizontalScrollView>
     </LinearLayout>
 </com.doomonafireball.customscrollviews.widget.SyncedListContainer>

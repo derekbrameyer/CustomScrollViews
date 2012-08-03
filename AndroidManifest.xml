@@ -49,6 +49,12 @@
         <activity
             android:name=".activity.ScrollView2DComplexActivity"
             android:label="@string/complex_scroll_view_2_d"/>
+        <activity
+            android:name=".activity.ListView2DActivity"
+            android:label="@string/list_view_2_d"/>
+        <activity
+            android:name=".activity.MaxScrollScrollViewActivity"
+            android:label="@string/max_scroll_scroll_view"/>
     </application>
 </manifest>
 
