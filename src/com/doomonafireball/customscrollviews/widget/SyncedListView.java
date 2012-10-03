@@ -23,14 +23,14 @@ public class SyncedListView extends ListView implements SyncedListContainer.Touc
         super(context, attrs);
         TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.SyncedScrollView, 0, 0);
         mDispatchTouch = a.getBoolean(R.styleable.SyncedScrollView_dispatchTouch, true);
-        mDispatchSelection = a.getBoolean(R.styleable.SyncedScrollView_dispatchSelection, true);
+        //mDispatchSelection = a.getBoolean(R.styleable.SyncedScrollView_dispatchSelection, true);
     }
 
     public SyncedListView(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
         TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.SyncedScrollView, defStyle, 0);
         mDispatchTouch = a.getBoolean(R.styleable.SyncedScrollView_dispatchTouch, true);
-        mDispatchSelection = a.getBoolean(R.styleable.SyncedScrollView_dispatchSelection, true);
+        //mDispatchSelection = a.getBoolean(R.styleable.SyncedScrollView_dispatchSelection, true);
     }
 
     public void setDispatchTouch(boolean b) {

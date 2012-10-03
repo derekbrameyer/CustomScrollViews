@@ -17,7 +17,7 @@ import java.util.ArrayList;
 public class FreezableSyncedScrollContainer extends RelativeLayout {
 
     private FreezableHorizontalScrollView mHorizontalScrollView;
-    private FreezableVerticalScrollView mVerticalScrollView;
+    private PinnedHeaderScrollView mVerticalScrollView;
     private FreezableTwoDScrollView mTwoDScrollView;
 
     private int mHorizontalScrollViewId;
@@ -65,7 +65,7 @@ public class FreezableSyncedScrollContainer extends RelativeLayout {
             throw new IllegalArgumentException("The mHorizontalScrollViewId attribute is required and must refer to an"
                     + " existing child.");
         }
-        mVerticalScrollView = (FreezableVerticalScrollView) findViewById(mVerticalScrollViewId);
+        mVerticalScrollView = (PinnedHeaderScrollView) findViewById(mVerticalScrollViewId);
         if (mVerticalScrollView == null) {
             throw new IllegalArgumentException("The mVerticalScrollViewId attribute is required and must refer to an"
                     + " existing child.");
@@ -187,7 +187,7 @@ public class FreezableSyncedScrollContainer extends RelativeLayout {
                 //((FreezableVerticalScrollView) clients.get(1)).scrollTo(l, t);
                 ((FreezableTwoDScrollView) clients.get(2)).setScrollX(l);
                 //((FreezableTwoDScrollView) clients.get(2)).scrollTo(l, t);
-            } else if (sender instanceof FreezableVerticalScrollView) {
+            } else if (sender instanceof PinnedHeaderScrollView) {
                 // update the horizontal and twoD
                 //((FreezableHorizontalScrollView) clients.get(0)).scrollTo(l, t);
                 ((FreezableTwoDScrollView) clients.get(2)).setScrollY(t);
@@ -196,7 +196,7 @@ public class FreezableSyncedScrollContainer extends RelativeLayout {
                 //((FreezableHorizontalScrollView) clients.get(0)).scrollTo(l, t);
                 //((FreezableVerticalScrollView) clients.get(1)).scrollTo(l, t);
                 ((FreezableHorizontalScrollView) clients.get(0)).setScrollX(l);
-                ((FreezableVerticalScrollView) clients.get(1)).setScrollY(t);
+                ((PinnedHeaderScrollView) clients.get(1)).setScrollY(t);
             }
 
             // update clients

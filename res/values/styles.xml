@@ -1,4 +1,31 @@
 <resources>
+    <style name="Fill">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="Wrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="FillHeight" parent="Fill">
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+    <style name="FillWidth" parent="Fill">
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="TextViewDemo" parent="FillWidth">
+        <item name="android:gravity">center</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:background">@color/transparent_20</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:text">@string/lorem_ipsum_5</item>
+    </style>
+    <style name="TextViewDemoHuge" parent="TextViewDemo">
+        <item name="android:textSize">48sp</item>
+    </style>
+    <style name="TextViewDemoLarge" parent="TextViewDemo">
+        <item name="android:textSize">36dp</item>
+    </style>
     <style name="TableCell">
         <item name="android:layout_margin">1dp</item>
         <item name="android:layout_width">85dp</item>

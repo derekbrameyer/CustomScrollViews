@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.doomonafireball.customscrollviews.widget.SyncedScrollView
+        style="@style/FillWidth"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:ssv="http://schemas.android.com/apk/res/com.doomonafireball.customscrollviews"
+        android:fillViewport="true"
+        ssv:dispatchScroll="false"
+        ssv:dispatchTouch="false"
+        ssv:receiveScroll="false"
+        ssv:receiveTouch="false"
+        ssv:maxScrollPosition="100dp">
+    <LinearLayout
+            style="@style/FillWidth"
+            android:orientation="vertical">
+        <TextView
+                style="@style/TextViewDemo"/>
+        <TextView
+                style="@style/TextViewDemo"/>
+        <TextView
+                style="@style/TextViewDemo"/>
+    </LinearLayout>
+</com.doomonafireball.customscrollviews.widget.SyncedScrollView>

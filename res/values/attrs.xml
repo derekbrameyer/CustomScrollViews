@@ -1,52 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <declare-styleable
-        name="CancelEditText">
+            name="CancelEditText">
         <attr name="cancelDrawable" format="reference"/>
     </declare-styleable>
     <declare-styleable
-        name="ResizedTextView">
+            name="ResizedTextView">
         <attr name="maxCustomLines" format="integer"/>
         <attr name="minTextSize" format="integer"/>
     </declare-styleable>
     <declare-styleable
-        name="TextViewWithFont">
+            name="TextViewWithFont">
         <attr name="font" format="string"/>
     </declare-styleable>
     <declare-styleable
-        name="SyncedScrollContainer">
-        <attr name="overScrollViewId" format="reference"/>
-        <attr name="underScrollViewId" format="reference"/>
-        <attr name="thirdScrollViewId" format="reference"/>
-        <attr name="fourthScrollViewId" format="reference"/>
-        <attr name="overListViewId" format="reference"/>
-        <attr name="underListViewId" format="reference"/>
-        <attr name="thirdListViewId" format="reference"/>
-        <attr name="fourthListViewId" format="reference"/>
-        <attr name="scrollFactor" format="float"/>
-        <attr name="secondScrollFactor" format="float"/>
-        <attr name="thirdScrollFactor" format="float"/>
-        <attr name="lockScrolling" format="boolean"/>
-        <attr name="syncScroll" format="boolean"/>
-        <attr name="syncTouch" format="boolean"/>
-    </declare-styleable>
-    <declare-styleable
-        name="SyncedScrollView">
+            name="SyncedScrollView">
         <attr name="dispatchScroll" format="boolean"/>
         <attr name="dispatchTouch" format="boolean"/>
-        <attr name="dispatchSelection" format="boolean"/>
         <attr name="receiveScroll" format="boolean"/>
         <attr name="receiveTouch" format="boolean"/>
         <attr name="maxScrollPosition" format="dimension"/>
     </declare-styleable>
     <declare-styleable
-        name="FreezableSyncedScrollContainer">
+            name="FreezableSyncedScrollContainer">
         <attr name="horizontalScrollViewId" format="reference"/>
         <attr name="verticalScrollViewId" format="reference"/>
         <attr name="twoDScrollViewId" format="reference"/>
     </declare-styleable>
     <declare-styleable
-        name="FrzSyncedScrollContainer">
+            name="FrzSyncedScrollContainer">
         <attr name="frzHorizontalScrollViewId" format="reference"/>
         <attr name="frzColumnListViewId" format="reference"/>
         <attr name="frzMainListViewId" format="reference"/>

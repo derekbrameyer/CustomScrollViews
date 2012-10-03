@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="hello">Hello CustomScrollView!</string>
     <string name="app_name">CustomScrollView Demos</string>
-    <string name="locked_scroll_views">Locked ScrollViews</string>
     <string name="parallax_scroll_views">Parallax ScrollViews</string>
-    <string name="synced_scroll_views">Synced ScrollViews</string>
-    <string name="unsynced_scroll_views">Unsynced ScrollViews</string>
+    <string name="pinned_header_scroll_view">Pinned Header ScrollView</string>
+    <string name="max_scroll_scroll_view">Max Scroll ScrollView</string>
+    <string name="parallax_scroll_views">Parallax ScrollViews</string>
+    <string name="locked_scroll_views">Locked ScrollViews</string>
+    <string name="synced_touch_scroll_views">Synced-Touch ScrollViews</string>
     <string name="locked_list_views">Locked ListViews</string>
     <string name="scroll_view_2_d">Two-Dimensional ScrollView</string>
     <string name="complex_scroll_view_2_d">Complex Two-Dimensional ScrollView</string>
     <string name="list_view_2_d">Two-Dimensional ListView</string>
-    <string name="max_scroll_scroll_view">Max Scroll ScrollView</string>
     <string name="scroll_left_to_top">Scroll left column to top</string>
     <string name="smooth_scroll_left_to_top">Smooth scroll left to top</string>
     <string name="smooth_scroll_by_offset">Smooth scroll by offset</string>

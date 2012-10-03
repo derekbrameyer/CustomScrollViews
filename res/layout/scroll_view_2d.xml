@@ -3,7 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
-    <com.doomonafireball.parallaxscrollview.widget.TwoDScrollView
+    <com.doomonafireball.customscrollviews.widget.TwoDScrollView
         android:layout_width="fill_parent"
         android:layout_height="fill_parent">
         <TableLayout
@@ -2662,5 +2662,5 @@
                     android:text="Col10"/>
             </TableRow>
         </TableLayout>
-    </com.doomonafireball.parallaxscrollview.widget.TwoDScrollView>
+    </com.doomonafireball.customscrollviews.widget.TwoDScrollView>
 </LinearLayout>

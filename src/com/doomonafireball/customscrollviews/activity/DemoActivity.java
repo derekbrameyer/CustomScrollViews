@@ -21,29 +21,25 @@ public class DemoActivity extends RoboSherlockFragmentActivity {
 
     String[] activityNames = new String[]{
             "Two Parallax ScrollViews",
-            "Three Parallax ScrollViews",
+            "Pinned Header ScrollView",
+            "Max Scroll ScrollView",
             "Locked ScrollViews",
-            "Synced-Scroll ScrollViews",
-            "Unsynced-Scroll ScrollViews",
             "Synced-Touch ScrollViews",
             "Locked ListViews",
             "Two-Dimensional ScrollView",
             "Complex Two-Dimensional ScrollView",
-            "Two-Dimensional ListView",
-            "Max Scroll ScrollView"
+            "Two-Dimensional ListView"
     };
     Class[] activityClasses = new Class[]{
-            ParallaxTwoSVActivity.class,
-            ParallaxThreeSVActivity.class,
+            ParallaxActivity.class,
+            PinnedHeaderActivity.class,
+            MaxScrollActivity.class,
             LockedSVActivity.class,
-            SyncedSVActivity.class,
-            UnsyncedSVActivity.class,
             SyncedTouchSVActivity.class,
             LockedLVActivity.class,
             ScrollView2DActivity.class,
             ScrollView2DComplexActivity.class,
-            ListView2DActivity.class,
-            MaxScrollScrollViewActivity.class
+            ListView2DActivity.class
     };
 
     @InjectView(R.id.LV_demo) ListView demoLV;
