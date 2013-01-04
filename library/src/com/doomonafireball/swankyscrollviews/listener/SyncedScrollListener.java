@@ -1,4 +1,4 @@
-package com.doomonafireball.customscrollviews.widget;
+package com.doomonafireball.swankyscrollviews.listener;
 
 import android.view.View;
 

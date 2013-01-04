@@ -1,36 +1,36 @@
-package com.doomonafireball.customscrollviews.widget;
+package com.doomonafireball.swankyscrollviews.widget;
 
 import android.content.Context;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
-import android.widget.HorizontalScrollView;
+import android.widget.ListView;
 
 /**
  * User: derek Date: 7/23/12 Time: 3:31 PM
  */
-public class FrzHorizontalScrollView extends HorizontalScrollView implements FrzSyncedScrollContainer.FrzTouchNotifier {
+public class FrzColumnListView extends ListView implements FrzSyncedScrollContainer.FrzTouchNotifier {
 
     private FrzSyncedScrollContainer.FrzTouchListener mTouchListener = null;
 
-    public FrzHorizontalScrollView(Context context) {
+    public FrzColumnListView(Context context) {
         super(context);
     }
 
-    public FrzHorizontalScrollView(Context context, AttributeSet attrs) {
+    public FrzColumnListView(Context context, AttributeSet attrs) {
         super(context, attrs);
     }
 
-    public FrzHorizontalScrollView(Context context, AttributeSet attrs, int defStyle) {
+    public FrzColumnListView(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
     }
 
     @Override
     public boolean onTouchEvent(MotionEvent ev) {
+        super.onTouchEvent(ev);
         if (mTouchListener != null) {
             mTouchListener.onTouchEvent(this, ev);
         }
-        super.onTouchEvent(ev);
-        return true;
+        return false;
     }
 
     @Override
