@@ -1,4 +1,4 @@
-package com.doomonafireball.swankyscrollviews.listener;
+package com.doomonafireball.customscrollviews.listener;
 
 /**
  * User: derek Date: 8/2/12 Time: 3:31 PM

@@ -1,6 +1,4 @@
-package com.doomonafireball.swankyscrollviews.widget;
-
-import com.doomonafireball.customscrollviews.R;
+package com.doomonafireball.customscrollviews.widget;
 
 import android.content.Context;
 import android.content.res.TypedArray;

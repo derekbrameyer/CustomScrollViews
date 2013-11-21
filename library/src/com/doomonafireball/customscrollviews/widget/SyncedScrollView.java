@@ -1,4 +1,4 @@
-package com.doomonafireball.swankyscrollviews.widget;
+package com.doomonafireball.customscrollviews.widget;
 
 import com.doomonafireball.customscrollviews.R;
 

@@ -19,7 +19,7 @@
  * http://GORGES.us
  */
 
-package com.doomonafireball.swankyscrollviews.widget;
+package com.doomonafireball.customscrollviews.widget;
 
 import android.content.Context;
 import android.graphics.Rect;

@@ -1,4 +1,4 @@
-package com.doomonafireball.swankyscrollviews.listener;
+package com.doomonafireball.customscrollviews.listener;
 
 import java.util.ArrayList;
 
